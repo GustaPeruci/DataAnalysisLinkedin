@@ -20,7 +20,3 @@ Instruções rápidas:
 2. Rode a aplicação: `streamlit run app.py`
 3. Preencha a descrição da vaga e clique em "Salvar vaga" para gerar `vaga.json`.
 4. Faça upload do seu dataset (CSV/JSON) ou deixe marcado para usar o dataset de exemplo.
-
-Observações legais e de coleta:
-- Este projeto NÃO faz scraping automático do LinkedIn.
-- Para obter dados do LinkedIn, utilize exportação manual (copiar/colar), LinkedIn Recruiter/Jobs API quando tiver autorização, ou ferramentas oficiais. Respeite os Termos de Uso do LinkedIn.
