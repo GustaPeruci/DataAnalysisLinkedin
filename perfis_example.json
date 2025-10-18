@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.linkedin.com/in/miraceli",
+    "nome": "Miraceli",
+    "habilidades": "Python, SQL, Machine Learning",
+    "educacao": "Superior",
+    "experiencia_anos": 3,
+    "resumo": "Cientista de dados com experiência em ML e análise de dados"
+  },
+  {
+    "url": "https://www.linkedin.com/in/joellewosiack",
+    "nome": "Joelle Wosiack",
+    "habilidades": "Excel, Power BI, SQL",
+    "educacao": "Médio",
+    "experiencia_anos": 4,
+    "resumo": "Analista de dados com foco em BI"
+  },
+  {
+    "url": "https://www.linkedin.com/in/willian-jose-rosa",
+    "nome": "Willian José Rosa",
+    "habilidades": "Python, Estatística, Deep Learning",
+    "educacao": "Pós-graduação",
+    "experiencia_anos": 2,
+    "resumo": "Pesquisador em aprendizado profundo"
+  }
+]

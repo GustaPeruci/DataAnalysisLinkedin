@@ -1,0 +1,8 @@
+{
+  "titulo": "Cientista de Dados",
+  "grau_escolaridade": "Superior",
+  "conhecimentos_desejados": ["Python", "Machine Learning", "SQL"],
+  "conhecimentos_obrigatorios": ["Python", "Estatística"],
+  "tempo_experiencia": 2,
+  "outras_observacoes": "Experiência com projetos reais"
+}
