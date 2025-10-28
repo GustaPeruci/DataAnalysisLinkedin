@@ -1,26 +1,82 @@
 [
   {
     "url": "https://www.linkedin.com/in/miraceli",
-    "nome": "Miraceli",
-    "habilidades": "Python, SQL, Machine Learning",
+    "nome": "Miraceli Bonjardim",
+    "habilidades": "Python, SQL, Machine Learning, Estatística, TensorFlow",
     "educacao": "Superior",
     "experiencia_anos": 3,
-    "resumo": "Cientista de dados com experiência em ML e análise de dados"
+    "resumo": "Cientista de dados com experiência em ML e análise de dados, focado em projetos de machine learning e deep learning para otimização de processos empresariais."
   },
   {
     "url": "https://www.linkedin.com/in/joellewosiack",
     "nome": "Joelle Wosiack",
-    "habilidades": "Excel, Power BI, SQL",
+    "habilidades": "Excel, Power BI, SQL, Tableau",
     "educacao": "Médio",
     "experiencia_anos": 4,
-    "resumo": "Analista de dados com foco em BI"
+    "resumo": "Analista de dados com foco em BI e visualização de dados, especialista em dashboards e relatórios gerenciais."
   },
   {
     "url": "https://www.linkedin.com/in/willian-jose-rosa",
     "nome": "Willian José Rosa",
-    "habilidades": "Python, Estatística, Deep Learning",
+    "habilidades": "Python, Estatística, Deep Learning, PyTorch, Matemática",
     "educacao": "Pós-graduação",
     "experiencia_anos": 2,
-    "resumo": "Pesquisador em aprendizado profundo"
+    "resumo": "Pesquisador em aprendizado profundo com foco em visão computacional e processamento de linguagem natural. Experiência em projetos acadêmicos e industriais."
+  },
+  {
+    "url": "https://www.linkedin.com/in/victor-carrico",
+    "nome": "Victor Carrico",
+    "habilidades": "Python, Machine Learning, Data Science, Pandas, NumPy",
+    "educacao": "Superior",
+    "experiencia_anos": 5,
+    "resumo": "Cientista de dados sênior com vasta experiência em análise preditiva e modelagem estatística para tomada de decisão estratégica."
+  },
+  {
+    "url": "https://www.linkedin.com/in/weslleyalmeid",
+    "nome": "Weslley Almeida",
+    "habilidades": "R, Python, SQL, Estatística, Machine Learning",
+    "educacao": "Mestrado",
+    "experiencia_anos": 4,
+    "resumo": "Estatístico e cientista de dados com mestrado focado em análise quantitativa, modelagem preditiva e inferência estatística aplicada."
+  },
+  {
+    "url": "https://www.linkedin.com/in/marceloborgas",
+    "nome": "Marcelo Henrique Borgas",
+    "habilidades": "Java, Python, SQL, Data Engineering",
+    "educacao": "Superior",
+    "experiencia_anos": 6,
+    "resumo": "Engenheiro de dados com experiência em construção de pipelines de dados e arquiteturas de big data para suporte a analytics."
+  },
+  {
+    "url": "https://www.linkedin.com/in/carlos-eduardo-datascientist",
+    "nome": "Carlos Eduardo",
+    "habilidades": "Python, Machine Learning, NLP, Deep Learning, Estatística",
+    "educacao": "Pós-graduação",
+    "experiencia_anos": 3,
+    "resumo": "Cientista de dados especializado em NLP e análise de sentimentos. Experiência em projetos reais de classificação e análise textual."
+  },
+  {
+    "url": "https://www.linkedin.com/in/heitorhs",
+    "nome": "Heitor Henrique",
+    "habilidades": "Python, Scikit-learn, Pandas, SQL, Estatística, Machine Learning",
+    "educacao": "Superior",
+    "experiencia_anos": 2,
+    "resumo": "Analista de dados júnior com forte background em estatística e machine learning, buscando desenvolvimento em projetos desafiadores."
+  },
+  {
+    "url": "https://www.linkedin.com/in/marcelloaborges",
+    "nome": "Marcello Borges",
+    "habilidades": "JavaScript, React, Node.js, MongoDB",
+    "educacao": "Superior",
+    "experiencia_anos": 4,
+    "resumo": "Desenvolvedor full-stack focado em aplicações web modernas e escaláveis utilizando stack JavaScript."
+  },
+  {
+    "url": "https://www.linkedin.com/in/sarah-gruetzmacher",
+    "nome": "Sarah Gruetzmacher",
+    "habilidades": "Python, R, Estatística, Machine Learning, Data Visualization",
+    "educacao": "Doutorado",
+    "experiencia_anos": 8,
+    "resumo": "Doutora em estatística aplicada com ampla experiência em análise de dados complexos, modelagem preditiva e pesquisa científica em projetos multidisciplinares."
   }
 ]

@@ -1,22 +1,134 @@
-# Análise de Aderência de Perfis ao Vaga (LinkedIn)
+# 💼 Análise de Aderência de Perfis do LinkedIn
 
-Este projeto fornece uma interface Streamlit para descrever uma vaga e pontuar perfis do LinkedIn armazenados localmente (CSV/JSON).
+Sistema inteligente para análise automática de perfis do LinkedIn® e cálculo de aderência a vagas de emprego.
 
-Arquivos principais:
-- `app.py` — Aplicação Streamlit.
-- `perfis_example.json` — Dataset de exemplo com perfis estruturados.
-- `vaga.json` — (gerado) arquivo que contém a última vaga salva.
+## 🎯 Funcionalidades
 
-Formato esperado para perfis (CSV/JSON):
-- url: link do perfil (string)
-- nome: nome do candidato (string)
-- habilidades: lista/CSV de habilidades no campo como string, ex: "Python, SQL, Machine Learning"
-- educacao: uma das tags: Fundamental, Médio, Superior, Pós-graduação, Mestrado, Doutorado
-- experiencia_anos: número inteiro com anos de experiência
-- resumo: texto livre (opcional)
+- ✅ **Interface Web Interativa**: Criada com Streamlit para fácil uso
+- ✅ **Descrição Detalhada de Vagas**: Configure todos os requisitos da vaga
+- ✅ **Análise Automática de Perfis**: Processa todos os perfis do dataset
+- ✅ **Sistema de Pontuação Inteligente**: Algoritmo multi-critério com 5 dimensões de análise
+- ✅ **Top 5 Perfis**: Ranking dos candidatos mais aderentes
+- ✅ **Justificativas Detalhadas**: Explicação clara do motivo de cada classificação
+- ✅ **Visualizações Interativas**: Gráficos e métricas visuais
+- ✅ **Exportação de Resultados**: Download em JSON e CSV
+## 🚀 Como Usar
 
-Instruções rápidas:
-1. Instale dependências: `pip install -r requirements.txt`
-2. Rode a aplicação: `streamlit run app.py`
-3. Preencha a descrição da vaga e clique em "Salvar vaga" para gerar `vaga.json`.
-4. Faça upload do seu dataset (CSV/JSON) ou deixe marcado para usar o dataset de exemplo.
+### 1. Instalação
+
+```bash
+### 2. Executar a Aplicação
+
+```bash
+streamlit run app.py
+```
+
+A aplicação abrirá automaticamente no navegador em `http://localhost:8501`
+
+### 3. Configurar a Vaga
+
+Na barra lateral esquerda, preencha:
+
+- **Título da Vaga**: Nome da posição
+- **Grau de Escolaridade**: Nível mínimo exigido
+- **Conhecimentos Desejados**: Habilidades desejadas (separadas por vírgula)
+- **Conhecimentos Obrigatórios**: Habilidades essenciais (separadas por vírgula)
+- **Tempo de Experiência**: Anos mínimos de experiência
+- **Outras Observações**: Requisitos adicionais ou contexto da vaga
+
+### 4. Carregar Dataset de Perfis
+
+Vá para a aba **"📁 Dataset"**:
+
+- **Opção 1**: Use o dataset de exemplo (`perfis_example.json`)
+- **Opção 2**: Faça upload do seu próprio arquivo CSV ou JSON
+
+- Análise detalhada de cada perfil
+- Breakdown da pontuação por critério
+- Lista completa de todos os perfis classificados
+
+## 📊 Sistema de Pontuação
+
+### 1. Escolaridade (até 15 pontos)
+- Verifica se o candidato possui o grau mínimo exigido
+- Pontuação completa se atende ao requisito
+
+- 10 pontos por habilidade obrigatória encontrada
+- Máximo de 30 pontos (3 habilidades)
+- Match inteligente (considera variações)
+
+### 4. Conhecimentos Desejados (até 10 pontos)
+- 2 pontos por habilidade desejada encontrada
+
+### 5. Similaridade Textual (até 30 pontos)
+- Identifica compatibilidade de contexto e linguagem
+
+
+```json
+    "nome": "Nome do Candidato",
+    "habilidades": "Python, SQL, Machine Learning",
+  }
+]
+```
+
+**Campos obrigatórios:**
+- `url`: Link do perfil LinkedIn
+- `nome`: Nome completo do candidato
+- `habilidades`: Lista de habilidades separadas por vírgula
+- `educacao`: Um dos valores: `Fundamental`, `Médio`, `Superior`, `Pós-graduação`, `Mestrado`, `Doutorado`
+- `experiencia_anos`: Número inteiro de anos de experiência
+- `resumo`: Texto descritivo do perfil profissional
+
+### Exemplo de CSV
+
+```csv
+url,nome,habilidades,educacao,experiencia_anos,resumo
+https://www.linkedin.com/in/exemplo,João Silva,"Python, SQL, Machine Learning",Superior,3,Cientista de dados com experiência em projetos reais
+```
+
+- `requirements.txt` — Dependências do projeto
+- `README.md` — Documentação
+
+## 🛠️ Tecnologias Utilizadas
+
+- **[Streamlit](https://streamlit.io/)** — Framework para interface web
+- **[Pandas](https://pandas.pydata.org/)** — Manipulação de dados
+- **[Scikit-learn](https://scikit-learn.org/)** — TF-IDF e análise de similaridade
+- **[Plotly](https://plotly.com/)** — Visualizações interativas
+
+**Requisitos:**
+- Escolaridade: Superior
+- Obrigatórios: Python, Estatística
+- Desejados: Machine Learning, SQL
+- Experiência: 2 anos
+
+
+### Vaga para Analista de BI
+- Obrigatórios: SQL, Power BI
+- Desejados: Excel, Tableau
+- Experiência: 3 anos
+
+
+```mermaid
+    A[Configurar Vaga] --> B[Carregar Dataset de Perfis]
+    B --> C[Processar Todos os Perfis]
+    C --> D[Calcular Pontuação Multi-critério]
+
+## 📈 Melhorias Futuras
+
+- [ ] Relatórios em PDF
+- [ ] Comparação entre vagas
+- [ ] Histórico de análises
+
+**GustaPeruci**
+- GitHub: [@GustaPeruci](https://github.com/GustaPeruci)
+
+
+- Análise de dados
+- Desenvolvimento web
+- Machine Learning
+- Processamento de linguagem natural
+
+---
+
+**Nota:** LinkedIn® é uma marca registrada da LinkedIn Corporation e suas afiliadas.

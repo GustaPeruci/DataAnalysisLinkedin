@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.linkedin.com/in/ana-martins",
+    "nome": "Ana Martins",
+    "habilidades": "Python, Machine Learning, SQL, Estatística, Pandas, Scikit-learn",
+    "educacao": "Mestrado",
+    "experiencia_anos": 6,
+    "resumo": "Cientista de dados com experiência em projetos de IA, modelagem preditiva e análise estatística aplicada ao varejo e saúde."
+  },
+  {
+    "url": "https://www.linkedin.com/in/joao-silva",
+    "nome": "João Silva",
+    "habilidades": "Java, Spring Boot, SQL, AWS, Docker, Microservices",
+    "educacao": "Superior",
+    "experiencia_anos": 8,
+    "resumo": "Engenheiro de software sênior, especialista em arquitetura de sistemas distribuídos e cloud computing."
+  },
+  {
+    "url": "https://www.linkedin.com/in/mariana-oliveira",
+    "nome": "Mariana Oliveira",
+    "habilidades": "Power BI, Excel, SQL, Tableau, Data Visualization",
+    "educacao": "Pós-graduação",
+    "experiencia_anos": 5,
+    "resumo": "Analista de BI com foco em dashboards, relatórios gerenciais e análise de indicadores para tomada de decisão."
+  },
+  {
+    "url": "https://www.linkedin.com/in/ricardo-pereira",
+    "nome": "Ricardo Pereira",
+    "habilidades": "R, Python, Estatística, Machine Learning, Data Mining",
+    "educacao": "Doutorado",
+    "experiencia_anos": 10,
+    "resumo": "Pesquisador em estatística aplicada e ciência de dados, com publicações internacionais e experiência em projetos acadêmicos e corporativos."
+  },
+  {
+    "url": "https://www.linkedin.com/in/fernanda-costa",
+    "nome": "Fernanda Costa",
+    "habilidades": "SQL, ETL, Data Engineering, BigQuery, Python, Airflow",
+    "educacao": "Superior",
+    "experiencia_anos": 7,
+    "resumo": "Engenheira de dados com experiência em construção de pipelines, integração de dados e arquitetura de big data."
+  },
+  {
+    "url": "https://www.linkedin.com/in/paulo-rocha",
+    "nome": "Paulo Rocha",
+    "habilidades": "Excel, Power BI, SQL, Gestão de Projetos, Scrum",
+    "educacao": "Superior",
+    "experiencia_anos": 12,
+    "resumo": "Gestor de projetos de BI, especialista em metodologias ágeis e implantação de soluções analíticas corporativas."
+  },
+  {
+    "url": "https://www.linkedin.com/in/lucas-almeida",
+    "nome": "Lucas Almeida",
+    "habilidades": "Python, Deep Learning, TensorFlow, NLP, PyTorch",
+    "educacao": "Pós-graduação",
+    "experiencia_anos": 4,
+    "resumo": "Especialista em IA, com foco em processamento de linguagem natural e redes neurais profundas para aplicações em fintechs."
+  },
+  {
+    "url": "https://www.linkedin.com/in/renata-barbosa",
+    "nome": "Renata Barbosa",
+    "habilidades": "Marketing Digital, Google Analytics, SEO, Social Media, Copywriting",
+    "educacao": "Superior",
+    "experiencia_anos": 9,
+    "resumo": "Profissional de marketing com experiência em estratégias digitais, análise de métricas e campanhas de performance."
+  },
+  {
+    "url": "https://www.linkedin.com/in/eduardo-mendes",
+    "nome": "Eduardo Mendes",
+    "habilidades": "C#, .NET, SQL Server, Azure, DevOps, API Design",
+    "educacao": "Superior",
+    "experiencia_anos": 11,
+    "resumo": "Desenvolvedor full stack com experiência em sistemas corporativos, integração de APIs e automação de processos."
+  },
+  {
+    "url": "https://www.linkedin.com/in/sabrina-gomes",
+    "nome": "Sabrina Gomes",
+    "habilidades": "Python, Data Science, Pandas, Matplotlib, Estatística",
+    "educacao": "Mestrado",
+    "experiencia_anos": 5,
+    "resumo": "Cientista de dados com experiência em análise exploratória, visualização e modelagem estatística para e-commerce."
+  },
+  {
+    "url": "https://www.linkedin.com/in/rodrigo-souza",
+    "nome": "Rodrigo Souza",
+    "habilidades": "SQL, Data Modeling, Oracle, Power BI, ETL",
+    "educacao": "Superior",
+    "experiencia_anos": 13,
+    "resumo": "Arquiteto de dados com experiência em modelagem, integração e governança de dados em grandes empresas."
+  },
+  {
+    "url": "https://www.linkedin.com/in/juliana-moraes",
+    "nome": "Juliana Moraes",
+    "habilidades": "Python, Machine Learning, AWS, Docker, Git",
+    "educacao": "Superior",
+    "experiencia_anos": 3,
+    "resumo": "Analista de dados com experiência em projetos de automação, cloud e machine learning para startups."
+  },
+  {
+    "url": "https://www.linkedin.com/in/felipe-castro",
+    "nome": "Felipe Castro",
+    "habilidades": "JavaScript, React, Node.js, MongoDB, TypeScript",
+    "educacao": "Superior",
+    "experiencia_anos": 6,
+    "resumo": "Desenvolvedor front-end e back-end, especialista em aplicações web escaláveis e integrações REST."
+  },
+  {
+    "url": "https://www.linkedin.com/in/monica-pires",
+    "nome": "Monica Pires",
+    "habilidades": "Gestão de Pessoas, RH, Treinamento, Recrutamento, Excel",
+    "educacao": "Pós-graduação",
+    "experiencia_anos": 15,
+    "resumo": "Gestora de RH com experiência em recrutamento, desenvolvimento de equipes e implantação de programas de treinamento."
+  },
+  {
+    "url": "https://www.linkedin.com/in/victor-carrico",
+    "nome": "Victor Carrico",
+    "habilidades": "Python, Machine Learning, Data Science, Pandas, NumPy",
+    "educacao": "Superior",
+    "experiencia_anos": 5,
+    "resumo": "Cientista de dados sênior com experiência em análise preditiva, modelagem estatística e projetos de IA."
+  },
+  {
+    "url": "https://www.linkedin.com/in/gustavo-assis",
+    "nome": "Gustavo Assis",
+    "habilidades": "Python, Machine Learning, Data Science, Pandas, NumPy, Data mining, MySQL, Estatística",
+    "educacao": "Doutorado",
+    "experiencia_anos": 15,
+    "resumo": "Pesquisador em estatística aplicada e ciência de dados, com publicações internacionais e experiência em projetos acadêmicos e corporativos."
+  }
+]
