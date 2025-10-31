@@ -63,10 +63,10 @@ Vá para a aba **"Dataset"**:
 
 
 ```json
+}
     "nome": "Nome do Candidato",
     "habilidades": "Python, SQL, Machine Learning",
-  }
-]
+}
 ```
 
 **Campos obrigatórios:**
