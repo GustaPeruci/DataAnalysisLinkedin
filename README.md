@@ -14,18 +14,16 @@ Sistema inteligente para análise automática de perfis do LinkedIn® e cálculo
 - ✅ **Exportação de Resultados**: Download em JSON e CSV
 ##Como Usar
 
-### 1. Instalação
+### 1. Instalação e execução
 
 ```bash
-### 2. Executar a Aplicação
 
-```bash
-streamlit run app.py
+run.ps1
 ```
 
 A aplicação abrirá automaticamente no navegador em `http://localhost:8501`
 
-### 3. Configurar a Vaga
+### 2. Configurar a Vaga
 
 Na barra lateral esquerda, preencha:
 
@@ -36,7 +34,7 @@ Na barra lateral esquerda, preencha:
 - **Tempo de Experiência**: Anos mínimos de experiência
 - **Outras Observações**: Requisitos adicionais ou contexto da vaga
 
-### 4. Carregar Dataset de Perfis
+### 3. Carregar Dataset de Perfis
 
 Vá para a aba **"Dataset"**:
 
@@ -49,7 +47,7 @@ Vá para a aba **"Dataset"**:
 
 ## Sistema de Pontuação
 
-### 1. Escolaridade (até 15 pontos)
+### a. Escolaridade (até 15 pontos)
 - Verifica se o candidato possui o grau mínimo exigido
 - Pontuação completa se atende ao requisito
 
@@ -57,10 +55,10 @@ Vá para a aba **"Dataset"**:
 - Máximo de 30 pontos (3 habilidades)
 - Match inteligente (considera variações)
 
-### 4. Conhecimentos Desejados (até 10 pontos)
+### b. Conhecimentos Desejados (até 10 pontos)
 - 2 pontos por habilidade desejada encontrada
 
-### 5. Similaridade Textual (até 30 pontos)
+### c. Similaridade Textual (até 30 pontos)
 - Identifica compatibilidade de contexto e linguagem
 
 
@@ -89,18 +87,12 @@ https://www.linkedin.com/in/exemplo,João Silva,"Python, SQL, Machine Learning",
 - `requirements.txt` — Dependências do projeto
 - `README.md` — Documentação
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **[Streamlit](https://streamlit.io/)** — Framework para interface web
 - **[Pandas](https://pandas.pydata.org/)** — Manipulação de dados
 - **[Scikit-learn](https://scikit-learn.org/)** — TF-IDF e análise de similaridade
 - **[Plotly](https://plotly.com/)** — Visualizações interativas
-
-**Requisitos:**
-- Escolaridade: Superior
-- Obrigatórios: Python, Estatística
-- Desejados: Machine Learning, SQL
-- Experiência: 2 anos
 
 
 ### Vaga para Analista de BI
