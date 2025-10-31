@@ -1,8 +1,8 @@
-# 💼 Análise de Aderência de Perfis do LinkedIn
+#  Análise de Aderência de Perfis do LinkedIn
 
 Sistema inteligente para análise automática de perfis do LinkedIn® e cálculo de aderência a vagas de emprego.
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
 - ✅ **Interface Web Interativa**: Criada com Streamlit para fácil uso
 - ✅ **Descrição Detalhada de Vagas**: Configure todos os requisitos da vaga
@@ -12,7 +12,7 @@ Sistema inteligente para análise automática de perfis do LinkedIn® e cálculo
 - ✅ **Justificativas Detalhadas**: Explicação clara do motivo de cada classificação
 - ✅ **Visualizações Interativas**: Gráficos e métricas visuais
 - ✅ **Exportação de Resultados**: Download em JSON e CSV
-## 🚀 Como Usar
+##Como Usar
 
 ### 1. Instalação
 
@@ -38,7 +38,7 @@ Na barra lateral esquerda, preencha:
 
 ### 4. Carregar Dataset de Perfis
 
-Vá para a aba **"📁 Dataset"**:
+Vá para a aba **"Dataset"**:
 
 - **Opção 1**: Use o dataset de exemplo (`perfis_example.json`)
 - **Opção 2**: Faça upload do seu próprio arquivo CSV ou JSON
@@ -47,7 +47,7 @@ Vá para a aba **"📁 Dataset"**:
 - Breakdown da pontuação por critério
 - Lista completa de todos os perfis classificados
 
-## 📊 Sistema de Pontuação
+## Sistema de Pontuação
 
 ### 1. Escolaridade (até 15 pontos)
 - Verifica se o candidato possui o grau mínimo exigido
@@ -107,28 +107,3 @@ https://www.linkedin.com/in/exemplo,João Silva,"Python, SQL, Machine Learning",
 - Obrigatórios: SQL, Power BI
 - Desejados: Excel, Tableau
 - Experiência: 3 anos
-
-
-```mermaid
-    A[Configurar Vaga] --> B[Carregar Dataset de Perfis]
-    B --> C[Processar Todos os Perfis]
-    C --> D[Calcular Pontuação Multi-critério]
-
-## 📈 Melhorias Futuras
-
-- [ ] Relatórios em PDF
-- [ ] Comparação entre vagas
-- [ ] Histórico de análises
-
-**GustaPeruci**
-- GitHub: [@GustaPeruci](https://github.com/GustaPeruci)
-
-
-- Análise de dados
-- Desenvolvimento web
-- Machine Learning
-- Processamento de linguagem natural
-
----
-
-**Nota:** LinkedIn® é uma marca registrada da LinkedIn Corporation e suas afiliadas.
